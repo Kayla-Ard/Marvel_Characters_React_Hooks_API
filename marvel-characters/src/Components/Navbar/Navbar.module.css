@@ -1,0 +1,34 @@
+
+.navbar {
+    width: 100%;
+    background-color: #0D4E8F;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 10px 20px; 
+    margin-top: 0;
+}
+
+.logoImage {
+    width: 90px;
+    height: auto; 
+    border-radius: 5px;
+}
+
+.homeButton {
+    font-family: 'BentonSans Comp Black Regular', Arial, sans-serif;
+    background-color: #ED1A23; 
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 35px;
+    width: 90px;
+    height: auto;
+}
+
+.homeButton:hover {
+    background-color: #FFE03A; 
+    color:#0D4E8F
+}

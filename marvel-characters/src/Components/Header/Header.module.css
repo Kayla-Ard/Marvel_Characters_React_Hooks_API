@@ -1,0 +1,16 @@
+
+.header {
+    color: #ED1A23;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.header h1 {
+    font-family: 'BentonSans Comp Black Regular', Arial, sans-serif;
+    font-size: 50px;
+}
+
+.header h6 {
+    font-family: 'BentonSans Comp Black Regular', Arial, sans-serif;
+    font-size: 18px;
+}
