@@ -1,4 +1,4 @@
-/* src/SpiderManSwing/SpiderManSwing.module.css */
+
 @keyframes swing {
     0% {
         transform: translateX(-100px) translateY(0) rotate(0deg);

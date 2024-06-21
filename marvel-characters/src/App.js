@@ -7,19 +7,20 @@ import CharacterModal from './Components/CharacterModal/CharacterModal.jsx';
 import './Components/Font/Fonts.css';
 import SpiderManSwing from './Components/SpiderManSwing/SpiderManSwing';
 import HulkDrop from './Components/HulkDrop/HulkDrop';
+import Footer from './Components/Footer/Footer.jsx';
 
 const App = () => {
     const [selectedCharacter, setSelectedCharacter] = useState(null);
-    const [isModalOpen, setIsModalOpen] = useState(false); 
+    const [isModalOpen, setIsModalOpen] = useState(false);
 
     const handleCharacterSelect = (character) => {
         setSelectedCharacter(character);
-        setIsModalOpen(true); 
+        setIsModalOpen(true);
     };
 
     const handleCloseModal = () => {
         setSelectedCharacter(null);
-        setIsModalOpen(false); 
+        setIsModalOpen(false);
     };
 
     return (
@@ -29,11 +30,14 @@ const App = () => {
             {!isModalOpen && <HulkDrop />}
             <Header />
             <div className="content">
-                <CharacterList onCharacterSelect={handleCharacterSelect} />
+                <div className="mainContent">
+                    <CharacterList onCharacterSelect={handleCharacterSelect} />
+                </div>
             </div>
             {selectedCharacter && (
                 <CharacterModal character={selectedCharacter} onClose={handleCloseModal} />
             )}
+            <Footer />
         </div>
     );
 };
