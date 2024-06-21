@@ -1,6 +1,6 @@
 
 import styles from './Navbar.module.css';
-import The_Marvel_Universe from './The_Marvel_Universe.jpg';
+import The_Marvel_Universe from './The_Marvel_Universe.png';
 
 const Navbar = () => {
     return (

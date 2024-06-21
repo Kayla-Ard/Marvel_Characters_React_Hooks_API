@@ -45,3 +45,14 @@
 .closeButton:hover {
     background-color: #FFE03A; 
 }
+
+.characterThumbnail {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 100px; 
+    height: auto;
+    border-radius: 5px;
+    border: 2px solid #12133B;
+}
+

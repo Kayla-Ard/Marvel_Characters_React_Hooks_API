@@ -12,13 +12,24 @@
 
 .characterDetails h2 {
     font-family: 'BentonSans Comp Black Regular', Arial, sans-serif;
-    font-size: 24px;
+    font-size: 28px;
     margin-bottom: 10px;
+    color: #f44336;
+}
+
+.characterInfo {
+    font-family: 'BentonSans Comp Black Regular', Arial, sans-serif;
+    color: #f44336;
+    border-top: 2px solid #12133B;
+    padding-top: 30px;
+    font-size: 24px !important;
+    text-align: center;
+    margin: 10px 0;
 }
 
 .characterDetails p {
     font-family: 'BentonSans Comp Black Regular', Arial, sans-serif;
-    font-size: 16px;
+    font-size: 18px;
     margin-bottom: 20px;
 }
 
@@ -34,4 +45,5 @@
     margin: 5px 0;
     padding: 10px;
     border-radius: 4px;
+    font-size: 18px;
 }
