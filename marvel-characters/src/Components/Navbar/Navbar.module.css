@@ -1,5 +1,16 @@
-
 .navbar {
+    width: 100%;
+    overflow: hidden;
+}
+
+.stretchedImage {
+    width: 100%;
+    height: auto;
+}
+
+
+
+/* .navbar {
     width: 100%;
     background-color: #0D4E8F;
     overflow: hidden;
@@ -31,4 +42,4 @@
 .homeButton:hover {
     background-color: #FFE03A; 
     color:#0D4E8F
-}
+} */

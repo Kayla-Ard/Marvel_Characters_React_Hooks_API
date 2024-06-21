@@ -1,18 +1,14 @@
 
 import styles from './Navbar.module.css';
-import marvelLogo from './marvel.jpg'
+import The_Marvel_Universe from './The_Marvel_Universe.jpg';
 
 const Navbar = () => {
     return (
         <nav className={styles.navbar}>
-            <div className={styles.logo}>
-                <img src={marvelLogo} alt="Marvel Logo" className={styles.logoImage} />
-            </div>
-            <div className={styles.navItems}>
-                <button className={styles.homeButton}>Home</button>
-            </div>
+            <img src={The_Marvel_Universe} alt="Marvel Group" className={styles.stretchedImage} />
         </nav>
     );
 };
 
 export default Navbar;
+

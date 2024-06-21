@@ -9,28 +9,28 @@ import CharacterModal from './Components/CharacterModal/CharacterModal.jsx';
 import './Components/Font/Fonts.css';
 
 const App = () => {
-  const [selectedCharacter, setSelectedCharacter] = useState(null);
+    const [selectedCharacter, setSelectedCharacter] = useState(null);
 
-  const handleCharacterSelect = (character) => {
-      setSelectedCharacter(character);
-  };
+    const handleCharacterSelect = (character) => {
+        setSelectedCharacter(character);
+    };
 
-  const handleCloseModal = () => {
-      setSelectedCharacter(null);
-  };
+    const handleCloseModal = () => {
+        setSelectedCharacter(null);
+    };
 
-  return (
-      <div className="App">
-          <Navbar />
-          <Header />
-          <div className="content">
-              <CharacterList onCharacterSelect={handleCharacterSelect} />
-          </div>
-          {selectedCharacter && (
-              <CharacterModal character={selectedCharacter} onClose={handleCloseModal} />
-          )}
-      </div>
-  );
+    return (
+        <div className="App">
+            <Navbar />
+            <Header />
+            <div className="content">
+                <CharacterList onCharacterSelect={handleCharacterSelect} />
+            </div>
+            {selectedCharacter && (
+                <CharacterModal character={selectedCharacter} onClose={handleCloseModal} />
+            )}
+        </div>
+    );
 };
 
 export default App;
