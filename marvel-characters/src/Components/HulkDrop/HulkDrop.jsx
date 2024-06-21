@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import { useEffect } from 'react';
 import styles from './HulkDrop.module.css';
 import HulkImage from './hulk.png';
 
