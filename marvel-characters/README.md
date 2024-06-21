@@ -10,7 +10,8 @@ Welcome to my Marvel Comics Characters project! This project showcases various M
 
 ## Demonstration video of the project
 
-![Watch the video](https://drive.google.com/file/d/1n-8ozOUCkgm7QDdBFzUrPZJ2wW0eGBSh/view?usp=sharing)
+[Watch the video](https://drive.google.com/file/d/1n-8ozOUCkgm7QDdBFzUrPZJ2wW0eGBSh/view?usp=sharing)
+
 
 
 ## Usage
